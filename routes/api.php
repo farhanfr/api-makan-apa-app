@@ -13,6 +13,16 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
+$router->group(['prefix' => 'v1'],function () use ($router) {
+
+    $router->group(['prefix' => 'restaurant'], function () use($router) {
+        $router->get('all',['uses' => 'Restaurant\GetAllController']);
+    });
+
+    $router->group(['prefix' => 'foodcategory'], function () use($router) {
+        $router->get('all',['uses' => 'FoodCategory\GetAllController']);
+        $router->get('all/first',['uses' => 'FoodCategory\GetFirstCategoryController']);
+    });
+
+
 });
