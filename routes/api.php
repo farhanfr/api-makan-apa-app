@@ -25,5 +25,13 @@ $router->group(['prefix' => 'v1'],function () use ($router) {
         $router->get('all/second',['uses' => 'FoodCategory\GetSecondCategoryController']);
     });
 
+    $router->group(['prefix' => 'menurestaurant'], function () use($router) {
+        $router->get('all/restaurant',['uses' => 'MenuRestaurant\GetAllByRestaurantController']);
+    });
+
+    $router->group(['prefix' => 'food'], function () use($router) {
+            $router->get('all/restaurant',['uses' => 'Food\GetAllByRestaurantController']);
+    });
+
 
 });
