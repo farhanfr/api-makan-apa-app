@@ -41,6 +41,7 @@ $router->group(['prefix' => 'v1'],function () use ($router) {
         $router->post('add',['uses' => 'Cart\AddController']);
         $router->get('all/user',['uses' => 'Cart\GetController']);
         $router->put('update/qty',['uses' => 'Cart\UpdateQtyCartController']);
+        $router->get('get/totalcart',['uses' => 'Cart\GetTotalCartController']);
     });
 
 });

@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0de9ace2-3811-4aa1-ad2a-a6927afcccad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
-    </list>
+    <list default="true" id="0de9ace2-3811-4aa1-ad2a-a6927afcccad" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +15,7 @@
     <session id="-486374931">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.47" value="1" />
@@ -44,12 +40,12 @@
         <counts>
           <entry key="dummy" value="39" />
           <entry key="env" value="23" />
-          <entry key="php" value="1706" />
+          <entry key="php" value="1754" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="1706" />
+          <entry key="PHP" value="1754" />
           <entry key="PLAIN_TEXT" value="62" />
         </counts>
       </usages-collector>
@@ -65,7 +61,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Cart/GetController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
+            <state relative-caret-position="190">
               <caret line="16" column="66" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
               <folding>
                 <element signature="e#45#58#0#PHP" expanded="true" />
@@ -83,7 +79,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/api.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="176">
@@ -92,11 +88,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Cart/UpdateQtyCartController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="5" selection-start-column="5" selection-end-column="5" />
+            <state relative-caret-position="248">
+              <caret line="30" column="57" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
               <folding>
                 <element signature="e#45#58#0#PHP" expanded="true" />
               </folding>
@@ -141,8 +137,8 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/Cart/GetController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Cart/UpdateCart.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Cart/UpdateQtyCart.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Cart/UpdateQtyCartController.php" />
         <option value="$PROJECT_DIR$/routes/api.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Cart/UpdateQtyCartController.php" />
       </list>
     </option>
   </component>
@@ -402,18 +398,17 @@
       <workItem from="1593093262951" duration="941000" />
       <workItem from="1593134631632" duration="10265000" />
       <workItem from="1593266670626" duration="2344000" />
-      <workItem from="1593398840913" duration="4368000" />
+      <workItem from="1593398840913" duration="5183000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22748000" />
+    <option name="totallyTimeSpent" value="23563000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28517398" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28517398" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -428,7 +423,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.39016393" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.39016393" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -631,13 +626,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Cart/GetController.php">
+    <entry file="file://$PROJECT_DIR$/routes/api.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="16" column="66" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
-          <folding>
-            <element signature="e#45#58#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="176">
+          <caret line="42" column="74" selection-start-line="42" selection-start-column="74" selection-end-line="42" selection-end-column="74" />
         </state>
       </provider>
     </entry>
@@ -648,20 +640,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Cart/UpdateQtyCartController.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Cart/GetController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        <state relative-caret-position="190">
+          <caret line="16" column="66" selection-start-line="16" selection-start-column="66" selection-end-line="16" selection-end-column="66" />
           <folding>
             <element signature="e#45#58#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/api.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Cart/UpdateQtyCartController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="42" column="74" selection-start-line="42" selection-start-column="74" selection-end-line="42" selection-end-column="74" />
+        <state relative-caret-position="248">
+          <caret line="30" column="57" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
+          <folding>
+            <element signature="e#45#58#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

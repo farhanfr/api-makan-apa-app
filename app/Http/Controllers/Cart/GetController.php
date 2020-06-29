@@ -12,7 +12,7 @@ class GetController extends Controller
     {
         $userId = $request->input('user_id');
 
-        $menu = Cart::with(['user','food'])->where('user_id','=',$userId)->get();
+        $menu = Cart::with(['food'])->where('user_id','=',$userId)->get();
 
         return $this->response()->successData('Success to get cart','data',$menu);
     }
