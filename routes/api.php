@@ -33,5 +33,14 @@ $router->group(['prefix' => 'v1'],function () use ($router) {
             $router->get('all/restaurant',['uses' => 'Food\GetAllByRestaurantController']);
     });
 
+    $router->group(['prefix' => 'auth'], function () use($router) {
+        $router->post('login/user',['uses' => 'User\LoginController']);
+    });
+
+    $router->group(['prefix' => 'cart'], function () use($router) {
+        $router->post('add',['uses' => 'Cart\AddController']);
+        $router->get('all/user',['uses' => 'Cart\GetController']);
+        $router->put('update/qty',['uses' => 'Cart\UpdateQtyCartController']);
+    });
 
 });
